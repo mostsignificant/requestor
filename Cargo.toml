@@ -1,0 +1,13 @@
+[package]
+name = "requestor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+instant = { version = "0.1.12", features = [ "wasm-bindgen", "inaccurate" ] }
+reqwasm = "0.5.0"
+strum = "0.24"
+strum_macros = "0.24"
+wasm-bindgen-futures = "0.4.30"
+web-sys = "0.3.58"
+yew = { version = "0.20.0", features = ["csr"] }
